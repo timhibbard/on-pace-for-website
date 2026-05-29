@@ -2,27 +2,148 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>On Pace For</title>
-  <meta name="description" content="Log workouts & predict your daily, weekly, monthly & yearly fitness goals.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>On Pace For — iOS Health & Fitness Activity Tracker with Smart Goal Projections</title>
+  <meta name="description" content="Track your steps, workouts, and activity with On Pace For. Get real-time projections for daily, weekly, monthly & yearly fitness goals. Integrates with Apple Health. Free 14-day trial.">
+  <meta name="keywords" content="activity tracking, health tracking, fitness projections, step counter, Apple Health integration, workout tracker, fitness goals, iOS health app">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="On Pace For — iOS Health & Fitness Activity Tracker">
+  <meta property="og:description" content="Turn every workout into clear progress. Automatically track your activity and forecast your fitness goals with smart projections.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://onpacefor.com/">
+  <meta property="og:image" content="https://onpacefor.com/assets/images/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="On Pace For — iOS Health & Fitness Activity Tracker">
+  <meta name="twitter:description" content="Track activity and forecast fitness goals with smart projections. Free 14-day trial.">
+
+  <!-- App Store / iOS -->
+  <meta name="apple-itunes-app" content="app-id=6773984353">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Structured Data for App -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "On Pace For",
+    "operatingSystem": "iOS",
+    "applicationCategory": "HealthApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "2.99",
+      "priceCurrency": "USD",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "2.99",
+        "priceCurrency": "USD",
+        "billingDuration": "P1M",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": "1"
+        }
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "ratingCount": "1"
+    },
+    "description": "Track your steps, workouts, and activity with smart goal projections. Integrates with Apple Health for comprehensive fitness tracking."
+  }
+  </script>
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Hero -->
-  <section id="hero">
-    <h1>Turn Every Workout into Clear Progress</h1>
-    <p>Automatically track your activity and forecast your goals.</p>
-    <a href="https://apps.apple.com/app/idYOUR_APP_ID" class="btn">Download on the App Store</a>
-    <!-- placeholder: replace with real hero screenshot -->
-    <img src="assets/images/screenshot-hero.png" alt="App hero screenshot">
-  </section>
-
-  <!-- Quick links -->
-  <nav>
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <div class="nav-brand">On Pace For</div>
     <ul>
       <li><a href="features.html">Features</a></li>
       <li><a href="pricing.html">Pricing</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <h1>Turn Every Workout into Clear Progress</h1>
+    <p class="hero-subtitle">Track your activity and forecast your fitness goals with intelligent projections. Integrates seamlessly with Apple Health.</p>
+
+    <div class="hero-cta">
+      <a href="https://apps.apple.com/app/id6773984353" class="btn btn-primary" rel="noopener">Download on the App Store</a>
+      <p class="trial-info">Free 14-day trial · Then $2.99/month or $29.99/year</p>
+    </div>
+
+    <!-- placeholder: replace with real hero screenshot -->
+    <img src="assets/images/screenshot-hero.png" alt="On Pace For app showing daily activity progress and goal projections" class="hero-image">
+  </section>
+
+  <!-- Value Props -->
+  <section class="value-props">
+    <h2>Your Fitness, Forecasted</h2>
+    <div class="props-grid">
+      <div class="prop">
+        <h3>📊 Real-Time Projections</h3>
+        <p>See where you'll end the day, week, month, and year based on your current pace.</p>
+      </div>
+      <div class="prop">
+        <h3>🎯 Smart Goals</h3>
+        <p>Set custom targets and get intelligent insights to stay on track.</p>
+      </div>
+      <div class="prop">
+        <h3>❤️ Apple Health Integration</h3>
+        <p>Seamlessly syncs with your existing health data. All data stays private on your device.</p>
+      </div>
+      <div class="prop">
+        <h3>📈 Advanced Analytics</h3>
+        <p>Premium features unlock detailed insights, data export, and workout intelligence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Premium Features Highlight -->
+  <section class="premium-highlight">
+    <h2>Unlock Premium Features</h2>
+    <ul class="premium-features">
+      <li>Advanced analytics and detailed insights</li>
+      <li>Unlimited custom timelines</li>
+      <li>Smart goal recommendations</li>
+      <li>Data export functionality</li>
+      <li>Workout intelligence features</li>
+    </ul>
+    <p class="premium-pricing">Start your free 14-day trial, then $2.99/month or $29.99/year</p>
+    <a href="pricing.html" class="btn btn-secondary">View Pricing Details</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>On Pace For</h4>
+        <p>Your fitness tracking companion for iOS</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright">&copy; 2026 On Pace For. All rights reserved.</p>
+  </footer>
 </body>
 </html>
