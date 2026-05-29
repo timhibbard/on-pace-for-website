@@ -59,19 +59,20 @@ This website supports the App Store launch of On Pace For, featuring:
 
 ### 🔄 Action Items Before Launch
 
-1. **Update App Store URL**
-   - Replace `YOUR_APP_ID` with actual App Store ID in all pages:
-     - `index.html` (2 instances)
-     - `features.html` (1 instance)
-     - `pricing.html` (3 instances)
-   - Search and replace: `https://apps.apple.com/app/idYOUR_APP_ID`
+1. **✅ App Store URL** - COMPLETED
+   - App Store ID: `6773984353`
+   - URLs updated in all pages
 
-2. **Configure Contact Form**
+2. **✅ Contact Email** - COMPLETED
+   - Email: `timhibbard@gmail.com`
+   - Updated in privacy, terms, and contact pages
+
+3. **Configure Contact Form**
    - Update Formspree URL in `contact.html`
    - Replace `YOUR_FORM_ID` with your Formspree form ID
    - Or use alternative form service (Netlify Forms, etc.)
 
-3. **Add App Screenshots**
+4. **Add App Screenshots**
    - Create/add images to `assets/images/` directory:
      - `screenshot-hero.png` - Main app screen
      - `screenshot-dashboard.png` - Live dashboard
@@ -79,10 +80,6 @@ This website supports the App Store launch of On Pace For, featuring:
      - `screenshot-goals.png` - Goals interface
      - `screenshot-health-integration.png` - HealthKit integration
      - `og-image.png` - Social media preview (1200x630px)
-
-4. **Update Support Email** (if needed)
-   - Current: `support@onpacefor.com`
-   - Update in: `privacy.html`, `terms.html`, `contact.html`
 
 5. **Set Up Domain**
    - Configure DNS for `onpacefor.com`
@@ -183,7 +180,7 @@ The Privacy Policy and Terms of Service documents comply with:
 ## 📞 Support
 
 For questions about the website or app:
-- Email: support@onpacefor.com
+- Email: timhibbard@gmail.com
 - Website: https://onpacefor.com/contact.html
 
 ## 📝 License
