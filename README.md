@@ -67,7 +67,13 @@ This website supports the App Store launch of On Pace For, featuring:
    - Email: `timhibbard@gmail.com`
    - Updated in privacy, terms, and contact pages
 
-3. **Configure Contact Form**
+3. **✅ App Screenshots** - COMPLETED
+   - Added 3 real app screenshots to `assets/images/`
+   - Dashboard view, monthly stats, home screen widgets
+   - All pages updated with actual screenshots
+   - Social media OG image configured
+
+4. **Configure Contact Form**
    - Update Formspree URL in `contact.html`
    - Replace `YOUR_FORM_ID` with your Formspree form ID
    - Or use alternative form service (Netlify Forms, etc.)
@@ -124,14 +130,16 @@ This website supports the App Store launch of On Pace For, featuring:
 ## 📱 Testing Checklist
 
 Before launch, test:
+- [x] App Store ID configured correctly
+- [x] Contact email updated throughout
+- [x] Screenshots added and displaying
 - [ ] All internal links work
-- [ ] App Store links redirect properly (after adding real ID)
-- [ ] Contact form submits successfully
+- [ ] App Store links redirect properly
+- [ ] Contact form submits successfully (needs Formspree config)
 - [ ] Mobile responsive design on iOS/Android
 - [ ] Privacy policy is complete and accurate
 - [ ] Terms of service is complete and accurate
 - [ ] All subscription details are correct
-- [ ] Screenshots display properly (after adding)
 - [ ] Footer links work
 - [ ] Cross-browser compatibility (Safari, Chrome, Firefox)
 
