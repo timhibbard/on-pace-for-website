@@ -6,7 +6,7 @@ Marketing website for **On Pace For**, an iOS health and fitness activity tracki
 
 This website supports the App Store launch of On Pace For, featuring:
 - Complete product information and features
-- Subscription pricing details ($2.99/month, $29.99/year)
+- Subscription pricing details ($0.99/month, $9.99/year)
 - Privacy Policy and Terms of Service (required for App Store)
 - SEO optimization for app discovery
 - Responsive design for all devices
@@ -20,8 +20,8 @@ This website supports the App Store launch of On Pace For, featuring:
 - **Monetization**: Subscription with 14-day free trial
 
 ### Subscription Plans
-- **Monthly**: $2.99/month
-- **Annual**: $29.99/year (17% savings)
+- **Monthly**: $0.99/month
+- **Annual**: $9.99/year (16% savings)
 - **Free Trial**: 14 days
 
 ### Premium Features
