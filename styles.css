@@ -12,6 +12,8 @@
   --bg-primary: #FFFFFF;
   --bg-secondary: #F5F5F5;
   --bg-card: #F5F5F5;
+  --glow-a: rgba(119, 184, 155, 0.22);
+  --glow-b: rgba(0, 127, 127, 0.10);
 
   /* Text */
   --text-primary: #333333;
@@ -49,6 +51,8 @@
     --bg-primary: #121212;
     --bg-secondary: #1C1C1C;
     --bg-card: #1C1C1C;
+    --glow-a: rgba(32, 178, 170, 0.30);
+    --glow-b: rgba(119, 184, 155, 0.14);
     --text-primary: #FFFFFF;
     --text-secondary: #CCCCCC;
     --activity-steps: #A0E86D;
@@ -76,7 +80,10 @@ body {
   line-height: 1.6;
   color: var(--text-secondary);
   background-color: var(--bg-primary);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  background-image:
+    radial-gradient(1100px 620px at 85% -120px, var(--glow-a), transparent 70%),
+    radial-gradient(900px 560px at -10% 80px, var(--glow-b), transparent 70%);
+  background-repeat: no-repeat;
 }
 
 /* ===================================
@@ -560,7 +567,7 @@ header a:hover {
 }
 
 .savings {
-  color: var(--activity-steps);
+  color: var(--secondary-accent);
   font-weight: 600;
   margin-bottom: var(--spacing-sm);
 }
@@ -930,4 +937,17 @@ footer {
   padding-left: var(--spacing-md);
   color: var(--text-secondary);
   line-height: 1.6;
+}
+
+picture {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .btn-primary {
+    background: #00807F;
+  }
+  .btn-primary:hover {
+    background: #009494;
+  }
 }
