@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://onpacefor.com/sitemap.xml
+Sitemap: https://timhibbard.github.io/on-pace-for-website/sitemap.xml

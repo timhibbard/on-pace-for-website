@@ -1,6 +1,6 @@
 # On Pace For - Marketing Website
 
-Marketing website for **On Pace For**, an iOS health and fitness activity tracking app with smart goal projections.
+Marketing website for **On Pace For**, an iOS app that projects your steps, exercise minutes, and Move calories to the end of the day, week, month, and year.
 
 ## 🚀 Overview
 
@@ -15,21 +15,20 @@ This website supports the App Store launch of On Pace For, featuring:
 
 - **App Name**: On Pace For
 - **Bundle ID**: com.timhibbard.onpacefor
-- **Platform**: iOS 16.0+
+- **Platform**: iOS 27+ (watchOS 26.2+)
 - **Category**: Health & Fitness
-- **Monetization**: Subscription with 14-day free trial
+- **Monetization**: Free, with an optional Pro subscription (try Pro free for 24 hours by watching an ad)
 
 ### Subscription Plans
 - **Monthly**: $0.99/month
 - **Annual**: $9.99/year (16% savings)
-- **Free Trial**: 14 days
+- **Free Trial**: none on the subscriptions
 
 ### Premium Features
 - Advanced analytics and detailed insights
 - Unlimited custom timelines
-- Smart goal recommendations
 - Data export functionality
-- Workout intelligence features
+- Apple Intelligence workout recaps
 
 ## 📁 Site Structure
 
